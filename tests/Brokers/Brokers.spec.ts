@@ -8,10 +8,11 @@ import {
  * Test Purpose: Verify that the "For Brokers" page loads successfully and displays the "Book a Demo" button.
  * Test Steps:
  * 1. Navigate to the Perchwell landing page.
- * 2. Navigate to the "For Brokers" page.
- * 3. Wait for the Brokers page to fully load.
- * 4. Retrieve the "Book a Demo" button text.
- * 5. Verify that the button text is "Book a Demo".
+ * 2. Wait for the landing page to fully load.
+ * 3. Navigate to the "For Brokers" page.
+ * 4. Wait for the Brokers page to fully load.
+ * 5. Retrieve the "Book a Demo" button text.
+ * 6. Verify that the button text is "Book a Demo".
  */
 test(
   "Verify that the Brokers page loads correctly and the 'Book a Demo' button is visible",
