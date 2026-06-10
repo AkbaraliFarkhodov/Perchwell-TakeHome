@@ -116,6 +116,12 @@ The suite is configured in `playwright.config.ts` with:
 - HTML report locally
 - Blob and HTML reports in CI
 
+## Test Results
+
+Below is a sample test execution from my local environment:
+
+![Test Run](./screenshots/test-run.png)
+
 ## Notes
 
 - Generated Playwright artifacts such as `test-results/` and `playwright-report/` are ignored by Git.
